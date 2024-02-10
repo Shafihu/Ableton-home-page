@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding:0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.hero{
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    height: 10vh;
+    border-bottom: 1px solid #d5b3ff;
+}
+
+a{
+    color: black;
+}
+
+
+.logo-links{
+    display: flex;
+}
+.logo{
+    margin:0px 35px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.more{
+    color: 
+    #ff764d;
+}
+
+.log-side{
+    margin-right: 20px;
+}
+
+.try-free{
+    color:#0000ff;
+}
+.reg{
+    font-size: 14px;
+}
+
+.log-side ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 280px;
+}
+
+.mini-nav{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    z-index: 200;
+    /* position: sticky;
+    top: 0; */
+    background: white;
+}
+.mini-nav .mini{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    font-size: 14px;
+}
+
+.play{
+    position: absolute;
+    color: red;
+}
+
+.fourth-sect .fa-youtube{
+    font-size: 100px;
+}
+
+.hero-img{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img .img{
+    width: 80%;
+    height: 80vh;
+    position: relative;
+    background-image: url(./images/pexels-zen-chung-5749798.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-img h1{
+    position: absolute;
+    font-size: 100px;
+}
+
+.second-sect{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-info{
+    width: 50%;
+    margin: auto;
+}
+.big{
+    font-size: 25px;
+    font-weight: 520;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+.small{
+    line-height:30px;
+}
+
+.blue{
+    color: #0000ff;
+}
+
+.third-sect{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.yellow-box{
+    background-color:#fbffa7;
+    width: 60%;
+    height: 100%;
+}
+
+
+
+.imgs{
+    position: absolute;
+    /* background-color: yellow; */
+    height: 80vh;
+    width: 80%;
+    margin: 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imgs .img1{
+    height: 100%;
+    width: 50%;
+    background-image: url(./images/samuel-raita-RiDxDgHg7pw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.imgs .img2{
+    width: 40%;
+    height: 55%;
+    background-image: url(./images/pexels-cottonbro-4065155.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+
+.fourth-sect{
+    height: 65vh;
+}
+
+.img-txt{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.img-txt .yt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0000ff;
+    cursor: pointer;
+}
+
+.img-txt img{
+    height: 450px;
+    width: 800px;
+    cursor: pointer;
+}
+
+.img-txt p{
+    width: 800px;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.fifth-sect{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d5b3ff;
+}
+
+.fifth-sect .img{
+    height: 100%;
+    width: 100%;
+}
+
+.cont{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.fifth-sect .img{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/soundtrap-B2fNlHHI7dI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fifth-sect .text{
+    height: 100%;
+    width: 80%;
+    background-color: #b1c5ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 145px;
+}
+
+.fifth-sect .text p{
+    font-size: 25px;
+    font-weight: 520;
+    line-height: 40px;
+}
+
+.fifth-sect .text a{
+    font-size: 25px;
+    margin-top: 30px;
+    color: #0000ff;
+    text-align: left;
+    width: 350px;
+}
+
+.footer{
+    min-height: 100vh;
+    margin-top: 50px;
+    width: 85%;
+    margin: auto;
+}
+.ft-title{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.ft-title h2{
+    font-size: 50px;
+}
+
+.ft-2{
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.ft2-one p,.ft2-two p,.ft2-three p{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.ft2-three .dot{
+    font-weight: normal;
+}
+
+.ft-2 li{
+    margin: 10px 0px;
+}
+
+form{
+    position: relative;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.email{
+    border: 0;
+    outline: 0;
+    background-color: gainsboro;
+    height: 40px;
+    flex: 1;
+    padding: 0px 15px;
+    font-size: 16px;
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+.btn{
+    border: 0;
+    outline: 0;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    background-color: #0000ff;
+    color: white;
+    cursor: pointer;
+}
+
+.socials{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.fa-brands{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.ft2-three p{
+    margin: 0;
+    line-height: 30px;
+}
+
+.ft-3{
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft3-one p,.ft3-two p,.ft3-three p{
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.ft-3 li{
+    margin: 10px 0px;
+}
+
+.ft3-two{
+    width: 315px;
+}
+
+.ft3-three{
+    width: 530px;
+}
+
+.s-links{
+    font-size: 13px;
+}
+.s-links ul{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.ft-4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s-logo p{
+    font-size: 13px;
+}
+
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.morePlus{
+    height: 50vh;
+    border-bottom: 1px solid #d5b3ff;
+    display: none;
+    /* background: blue; */
+}
+
+.extra{
+    display: flex;
+}
+
+.bBorder{
+    border-bottom: none;
+}
